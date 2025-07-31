@@ -70,12 +70,12 @@ div ul {
 }
 
 /* Section 1 */
-section {
+.section-1 {
     background-color: antiquewhite;
     width: 1140px;
     height: 328px;
-    margin: 10% 15%;
-    padding: 25px 20px 25px 20px;
+    margin: 10%;
+    padding: 10%;
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
@@ -90,14 +90,22 @@ section div .section-1-left {
 }
 
 /* div class="section-2-stats */
+.section-2 {
+    background-color: antiquewhite;
+    width: 1140px;
+    height: 306px;
+    margin: 10%;
+    padding: 10%;
+    border-radius: 20px;
 
+    .section-2 {
+        align-items: center;
+    }
 
-
-
-#50K {
-    display: flex;
-    justify-items: row;
-    align-items: center;
-    flex-direction: column;
-}
-}
+    #div-stats {
+        display: flex;
+        justify-items: column;
+        align-items: space-between;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
